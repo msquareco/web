@@ -1,125 +1,128 @@
 /* Global styles */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Georgia', 'Segoe UI', sans-serif;
-    background-color: #fefefe;
-    color: #1f1f1f;
-    line-height: 1.7;
-  }
-  
-  h1, h2, h3 {
-    font-family: 'Georgia', serif;
-    color: #2a2a2a;
-    margin-bottom: 0.5em;
-  }
-  
-  a {
-    color: #003366;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Header */
-  header {
-    background-color: #1c1c1c;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Footer */
-  footer {
-    background-color: #1c1c1c;
-    color: #ccc;
-    padding: 20px 0;
-    text-align: center;
-    font-size: 0.9em;
-    margin-top: 50px;
-  }
-  
-  /* Main content */
-  main {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
-  }
-  
-  section {
-    margin-bottom: 60px;
-  }
-  
-  .about-container h1,
-  .about-container h2 {
-    border-left: 4px solid #003366;
-    padding-left: 10px;
-  }
-  
-  .about-container p {
-    font-size: 1.1em;
-    margin-bottom: 1.5em;
-  }
-  
-  /* Buttons */
-  .cta-button,
-  .button {
-    background-color: #003366;
-    color: #fff;
-    padding: 12px 24px;
-    font-size: 16px;
-    border-radius: 8px;
-    display: inline-block;
-    margin-top: 20px;
-    transition: background 0.3s ease;
-  }
-  
-  .cta-button:hover,
-  .button:hover {
-    background-color: #001f3f;
-  }
-  
-  /* Lists */
-  ul {
-    padding-left: 20px;
-  }
-  
-  ul li {
-    margin-bottom: 10px;
-  }
-  
-  /* Contact page */
-  .contact-methods {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .contact-methods li {
-    margin-bottom: 12px;
-    font-size: 1.05em;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  #floating-whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-    background-color: #25D366;
-    border-radius: 50%;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  #floating-whatsapp img {
-    width: 30px;
-    height: 30px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  color: #1f1f1f;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  font-family: 'Georgia', serif;
+  color: #2a2a2a;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #003366;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #1c1c1c;
+  color: #ccc;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 50px;
+}
+
+/* Main content */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+/* About Page Styles */
+.about-container h1,
+.about-container h2 {
+  border-left: 4px solid #003366;
+  padding-left: 10px;
+}
+
+.about-container p {
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+}
+
+/* Buttons */
+.cta-button,
+.button {
+  background-color: #003366;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover,
+.button:hover {
+  background-color: #001f3f;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Contact Page */
+.contact-methods {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-methods li {
+  margin-bottom: 12px;
+  font-size: 1.05em;
+}
+
+/* Floating WhatsApp Button */
+#floating-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #25D366;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#floating-whatsapp img {
+  width: 30px;
+  height: 30px;
+}
