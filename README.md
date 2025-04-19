@@ -2,14 +2,14 @@
 
 ## Project Overview
 
-This web application serves as a platform for [Your Organization/Project Name]. It includes various pages such as the homepage, about page, and contact page, along with components for consistent header and footer across all pages.
+This web application serves as a platform for MSQUARECO.COM . It includes various pages such as the homepage, about page, and contact page, along with components for consistent header and footer across all pages.
 
 ## File Structure
 
 The project is organized as follows:
 
 ```
-web-application
+docs
 ├── index.html
 ├── about.html
 ├── contact.html
@@ -50,12 +50,12 @@ web-application
 
 1. **Clone the Repository**
    ```
-   git clone [repository-url]
+   git clone (https://msquareco.github.io/msquareco/)
    ```
 
 2. **Navigate to the Project Directory**
    ```
-   cd web-application
+   cd docs
    ```
 
 3. **Open the Project in Your Preferred Editor**
