@@ -20,7 +20,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // Then load and apply config
   fetch('assets/config/config.json')
-    .then(response => response.json())
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Failed to load config.json');
+      }
+      return response.json();
+    })
     .then(data => {
       // After a slight delay to ensure header/footer is loaded into DOM
       setTimeout(() => {
@@ -62,13 +67,14 @@ window.addEventListener('DOMContentLoaded', () => {
           emailAnchor.setAttribute('href', `mailto:${data.email}`);
           emailAnchor.textContent = data.email;
         }
+
+        // WhatsApp floating button
+        const floatingWhatsApp = document.getElementById('floating-whatsapp');
+        if (floatingWhatsApp) {
+          const waUrl = `https://wa.me/${data.whatsapp.number}?text=${encodeURIComponent(data.whatsapp.message)}`;
+          floatingWhatsApp.setAttribute('href', waUrl);
+        }
       }, 100); // Delay slightly to allow DOM injection
     })
     .catch(error => console.error('Error loading config:', error));
 });
-// Add WhatsApp floating button href dynamically
-const floatingWhatsApp = document.getElementById('floating-whatsapp');
-if (floatingWhatsApp) {
-  const waUrl = `https://wa.me/${data.whatsapp.number}?text=${encodeURIComponent(data.whatsapp.message)}`;
-  floatingWhatsApp.setAttribute('href', waUrl);
-}
