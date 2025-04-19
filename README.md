@@ -79,4 +79,4 @@ Contributions are welcome! Please submit a pull request or open an issue for any
 
 ## License
 
-This project is licensed under the [Your License Name]. See the LICENSE file for details.
+This project is licensed under the MSQUARECO.COM . See the LICENSE file for details.
