@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MSquareCo | Featured Projects</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <div id="header-container"></div>
+
+  <main>
+    <section class="featured-projects">
+      <h1>Featured Projects</h1>
+      <div id="projects-list"></div>
+    </section>
+  </main>
+
+  <div id="footer-container"></div>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Load featured projects dynamically
+    fetch('content/projects.json')
+      .then(response => response.json())
+      .then(projects => {
+        const projectsList = document.getElementById('projects-list');
+        projects.forEach(project => {
+          const projectElement = document.createElement('div');
+          projectElement.classList.add('project');
+          projectElement.innerHTML = `
+            <h2><a href="${project.link}">${project.title}</a></h2>
+            <img src="${project.image}" alt="${project.title}" class="project-image"/>
+            <p>${project.price} | ${project.location}</p>
+            <p><strong>Category:</strong> ${project.category}</p>
+            <p><strong>Status:</strong> ${project.status}</p>
+          `;
+          projectsList.appendChild(projectElement);
+        });
+      })
+      .catch(error => console.error('Error loading featured projects:', error));
+  </script>
+</body>
+</html>

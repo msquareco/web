@@ -1,0 +1,18 @@
+{
+    "businessName": "MSquareCo",
+    "tagline": "Beyond Sales. Into Strategy.",
+    "email": "info@msquareco.com",
+    "whatsapp": {
+      "number": "971567570905",
+      "message": "Hi MSquareCo team, I’d like to explore strategic investment opportunities."
+    },
+    "social": {
+      "instagram": "https://instagram.com/theglobalpartner",
+      "linkedin": "https://linkedin.com/in/munisham"
+    },
+    "branding": {
+      "logo": "assets/images/logo.png"
+    },
+    "location": "Dubai & Hyderabad"
+  }
+  

@@ -1,0 +1,31 @@
+{
+  "welcome": "Welcome to MSquareCo",
+  "about": "About Us",
+  "contact": "Contact Us",
+  "learn_more": "Learn More",
+  "why_invest": "Why Invest with MSquareCo?",
+  "cta_button": "Explore More",
+  "newsletter_signup": "Subscribe to Newsletter",
+  "strategic_inquiry": "Strategic Advisory Inquiry",
+  "footer": {
+    "copyright": "© 2025 MSquareCo. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Blog",
+    "faq": "FAQs",
+    "testimonials": "Testimonials",
+    "insights": "Market Insights",
+    "projects": "Featured Projects",
+    "form": "Contact Form"
+  },
+  "sections": {
+    "highlights_title": "Why Invest With Us?",
+    "insights_intro": "Discover market trends and investment opportunities.",
+    "projects_intro": "Browse our curated property investment highlights."
+  }
+}

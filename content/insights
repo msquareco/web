@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MSquareCo | Insights</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <div id="header-container"></div>
+
+  <main>
+    <section class="insights">
+      <h1>Insights</h1>
+      <div class="insights-list">
+        <!-- Placeholder for insights -->
+        <p>Market trends, analysis, and deep-dives coming soon!</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-container"></div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

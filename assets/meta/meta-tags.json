@@ -1,0 +1,21 @@
+{
+  "title": "MSquareCo | Strategic Global Property Investment",
+  "description": "Explore strategic real estate insights and curated opportunities in Dubai and beyond.",
+  "keywords": ["Dubai property", "real estate investment", "global insights", "MSquareCo"],
+  "author": "Munisha Iqbalbhai Mansuri",
+  "viewport": "width=device-width, initial-scale=1.0",
+  "robots": "index, follow",
+  "og": {
+    "title": "MSquareCo – Beyond Sales. Into Strategy.",
+    "description": "Discover insight-driven investment strategies and curated property opportunities in Dubai and globally.",
+    "image": "assets/images/logo.png",
+    "url": "https://msquareco.com"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "site": "@theglobalpartner",
+    "title": "MSquareCo – Global Property Strategy",
+    "description": "Empowering investors with strategic real estate insights.",
+    "image": "assets/images/logo.png"
+  }
+}

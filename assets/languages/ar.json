@@ -1,0 +1,31 @@
+{
+  "welcome": "مرحبا بكم في MSquareCo",
+  "about": "معلومات عنا",
+  "contact": "تواصل معنا",
+  "learn_more": "اعرف المزيد",
+  "why_invest": "لماذا تستثمر مع MSquareCo؟",
+  "cta_button": "اكتشف المزيد",
+  "newsletter_signup": "اشترك في النشرة الإخبارية",
+  "strategic_inquiry": "استشارة استراتيجية",
+  "footer": {
+    "rights": "جميع الحقوق محفوظة",
+    "terms": "الشروط والأحكام",
+    "privacy": "سياسة الخصوصية"
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "about": "حول",
+    "contact": "اتصل",
+    "blog": "المدونة",
+    "faq": "الأسئلة الشائعة",
+    "testimonials": "الشهادات",
+    "insights": "رؤى السوق",
+    "projects": "المشاريع المميزة",
+    "form": "نموذج الاشتراك"
+  },
+  "sections": {
+    "highlights_title": "لماذا الاستثمار معنا؟",
+    "insights_intro": "اكتشف تحليلات السوق والفرص الاستراتيجية.",
+    "projects_intro": "تصفح مشاريعنا العقارية المميزة."
+  }
+}

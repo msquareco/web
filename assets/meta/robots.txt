@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /form/
+Disallow: /content/blog/
+Allow: /
+Sitemap: https://msquareco.com/sitemap.xml
