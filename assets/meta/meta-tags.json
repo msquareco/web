@@ -8,7 +8,7 @@
   "og": {
     "title": "MSquareCo – Beyond Sales. Into Strategy.",
     "description": "Discover insight-driven investment strategies and curated property opportunities in Dubai and globally.",
-    "image": "assets/images/logo.png",
+    "image": "assets/branding/logo.png",
     "url": "https://msquareco.com"
   },
   "twitter": {
@@ -16,6 +16,6 @@
     "site": "@theglobalpartner",
     "title": "MSquareCo – Global Property Strategy",
     "description": "Empowering investors with strategic real estate insights.",
-    "image": "assets/images/logo.png"
+    "image": "assets/branding/logo.png"
   }
 }
